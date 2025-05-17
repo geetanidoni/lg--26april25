@@ -1,0 +1,37 @@
+<script>
+    let x = 10;
+    let y = 5;
+
+    let z = x + y;
+
+
+    let x1 = 170;
+    let y1 = 35;
+    let z1 = x1 + y1;
+
+    function square(a){
+        let c = a ** 2;
+        return c;
+    }
+
+    let x2 = 11;
+    let y2 = 34;
+    let z3 = add(x2,y2);
+
+    //alert("z3="+ z3);
+
+</script>
+
+<body>
+    <div id="messages" style="font-size: 16px; font-weight: bold;">   </div>
+
+    <script>        //alert("z=" + z);    </script>
+
+    <input type="text" id="varA"> 
+    <br>
+    <input type="button" value="SQUARE" 
+    onclick="document.getElementById('messages').innerHTML = square(document.getElementById('varA').value)">
+
+    <p>JS-TASK1: Create a interactive webpage that accepts a numerical value from the user
+         and it displays the square of that number. Make use of a function </p>
+</body>
